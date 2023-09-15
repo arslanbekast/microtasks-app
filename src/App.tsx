@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import {MapComponent} from "./components/MapComponent/MapComponent";
 import {ButtonComponent} from "./components/ButtonComponent/ButtonComponent";
+import {HookUseStateComponent} from "./components/HookUseStateComponent/HookUseStateComponent";
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
     return (
         <div className="App">
             {/*<MapComponent students={students}/>*/}
-            <ButtonComponent/>
+            {/*<ButtonComponent/>*/}
+            <HookUseStateComponent/>
         </div>
     );
 }
