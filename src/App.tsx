@@ -3,6 +3,7 @@ import './App.css';
 import {MapComponent} from "./components/MapComponent/MapComponent";
 import {ButtonComponent} from "./components/ButtonComponent/ButtonComponent";
 import {HookUseStateComponent} from "./components/HookUseStateComponent/HookUseStateComponent";
+import {FilterComponent} from "./components/FilterComponent/FilterComponent";
 
 
 function App() {
@@ -18,8 +19,10 @@ function App() {
         <div className="App">
             {/*<MapComponent students={students}/>*/}
             {/*<ButtonComponent/>*/}
-            <HookUseStateComponent/>
+            {/*<HookUseStateComponent/>*/}
+            <FilterComponent/>
         </div>
+
     );
 }
 
