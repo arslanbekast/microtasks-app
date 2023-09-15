@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import {MapComponent} from "./components/MapComponent/MapComponent";
+import {ButtonComponent} from "./components/ButtonComponent/ButtonComponent";
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
 
     return (
         <div className="App">
-            <MapComponent students={students}/>
+            {/*<MapComponent students={students}/>*/}
+            <ButtonComponent/>
         </div>
     );
 }
