@@ -4,6 +4,7 @@ import {MapComponent} from "./components/MapComponent/MapComponent";
 import {ButtonComponent} from "./components/ButtonComponent/ButtonComponent";
 import {HookUseStateComponent} from "./components/HookUseStateComponent/HookUseStateComponent";
 import {FilterComponent} from "./components/FilterComponent/FilterComponent";
+import InputComponent from "./components/InputComponent/InputComponent";
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
             {/*<MapComponent students={students}/>*/}
             {/*<ButtonComponent/>*/}
             {/*<HookUseStateComponent/>*/}
-            <FilterComponent/>
+            {/*<FilterComponent/>*/}
+            <InputComponent/>
         </div>
 
     );
